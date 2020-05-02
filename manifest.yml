@@ -1,0 +1,7 @@
+applications:
+- name: sample-charts
+  memory: 30M
+  buildpacks: 
+  - https://github.com/cloudfoundry/python-buildpack.git
+  command: python app.py
+  random-route: true
